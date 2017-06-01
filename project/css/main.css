@@ -2,45 +2,141 @@ body {
   max-width: 1600px;
   display: block;
   margin: 0 auto;
-  font-family: Helvetica, Arial; }
+  font-family: Helvetica, Arial;
+  font-weight: 300; }
   body .wrap {
     margin-left: 0;
     margin-right: 0;
     width: 100%; }
+    body .wrap img {
+      max-width: 100%; }
     body .wrap a {
       text-decoration: none;
       color: #fff; }
+    body .wrap a:hover {
+      color: #E5E103; }
+    body .wrap ul {
+      text-align: center;
+      padding-left: 0; }
     body .wrap li {
       list-style: none;
       display: inline-block; }
     body .wrap header {
       background-image: url(../img/head.jpg);
       background-size: cover;
-      height: 1400px;
+      height: 1500px;
       width: 100%;
       margin: 0;
       padding: 0; }
       body .wrap header .header-top {
         display: block;
         width: 100%;
-        min-height: 29em;
+        min-height: 19em;
         background-color: rgba(0, 0, 0, 0.6);
         color: #fff; }
         body .wrap header .header-top nav {
           width: 100%;
-          margin: 1% 0 1% 0; }
-          body .wrap header .header-top nav .left-nav-top {
-            float: left;
-            width: 30%;
-            padding: 2em 0 2em 3em; }
-          body .wrap header .header-top nav .right-nav-top {
-            float: left;
-            width: 60%;
-            padding: 2em 0 2em 4em; }
+          height: 60px;
+          padding: 0.7em 0 2em 0;
+          font-size: 0.9em; }
+          body .wrap header .header-top nav li {
+            padding: 0 0.4em 0 0.4em; }
+          body .wrap header .header-top nav input .search-nav {
+            background-color: #000;
+            border: 0; }
         body .wrap header .header-top .header-logo {
           text-align: center;
-          padding: 4em 0 2em 0; }
-      body .wrap header section img {
-        max-width: 100%;
+          padding: 3% 0 2% 0; }
+          body .wrap header .header-top .header-logo h1 {
+            font-size: 3em;
+            font-weight: 300; }
+          body .wrap header .header-top .header-logo h3 {
+            font-size: 1.1em;
+            font-weight: 200;
+            opacity: 0.5; }
+        body .wrap header .header-top .header-menu {
+          padding: 3% 0 1% 0;
+          font-size: 0.9em; }
+          body .wrap header .header-top .header-menu li {
+            padding: 0 2em 0 1em; }
+      body .wrap header .carousel-product {
+        width: 88%;
+        min-height: 38em;
         float: left;
-        padding: 7% 0 3% 15%; }
+        margin: 4% 0 0 6%;
+        background-color: #fff; }
+      body .wrap header section article {
+        width: 20%;
+        float: left; }
+    body .wrap .content {
+      width: 100%;
+      height: 700px;
+      margin-top: 40px;
+      background-color: #fff; }
+      body .wrap .content nav a {
+        color: #000; }
+        body .wrap .content nav a:hover {
+          color: #E5E103; }
+      body .wrap .content nav li {
+        padding-right: 1.5em; }
+      body .wrap .content section article {
+        width: 20%;
+        float: left; }
+    body .wrap footer {
+      background-color: #191919;
+      width: 100%;
+      height: 500px;
+      margin-top: 80px;
+      color: #fff; }
+      body .wrap footer .footer-top-text {
+        height: 50px;
+        background-color: #5A5A5A;
+        text-align: center; }
+        body .wrap footer .footer-top-text h3 {
+          padding-top: 13px; }
+      body .wrap footer .footer-menu {
+        width: 90%;
+        padding: 3% 0 3% 10%;
+        text-align: left;
+        float: left; }
+        body .wrap footer .footer-menu p {
+          text-align: left; }
+        body .wrap footer .footer-menu span p {
+          font-size: 0.9em; }
+        body .wrap footer .footer-menu .footer-category {
+          width: 22%;
+          float: left; }
+        body .wrap footer .footer-menu .footer-user {
+          width: 22%;
+          float: left; }
+        body .wrap footer .footer-menu .footer-info {
+          width: 22%;
+          float: left; }
+        body .wrap footer .footer-menu .footer-contact {
+          width: 22%;
+          float: left; }
+      body .wrap footer form {
+        width: 50%;
+        margin: 18% 0 2% 10%; }
+        body .wrap footer form button {
+          background-color: #E5E103;
+          padding: 0.7em 3em 0.7em 3em;
+          border: 0;
+          color: #fff; }
+          body .wrap footer form button:hover {
+            background-color: #5A5A5A;
+            transition: 0.6s; }
+        body .wrap footer form input {
+          margin-right: 1%;
+          padding: 0.7em 3em 0.7em 3em;
+          border: 0;
+          color: #000; }
+      body .wrap footer .footer-copyright {
+        width: 100%;
+        height: 50px;
+        margin-top: 3%;
+        background-color: #fff;
+        color: #000; }
+        body .wrap footer .footer-copyright p {
+          font-size: 0.8em;
+          padding: 1.2% 0 0 10%; }
