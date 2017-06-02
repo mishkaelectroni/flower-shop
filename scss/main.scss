@@ -1,3 +1,5 @@
+$yellow: #E5E103;
+$green: #5A5A5A;
 body {
 	max-width: 1600px;
 	display: block;
@@ -16,7 +18,7 @@ body {
 			color: #fff;
 		}
 		a:hover {
-			color: #E5E103;
+			color: $yellow;
 		}
 		ul {
 			text-align: center;
@@ -45,18 +47,28 @@ body {
 				nav {
 					 width: 100%;
 					 height: 60px;
-					 padding: 0.7em 0 2em 0;
+					 padding: 0 0 2em 0;
 					 font-size: 0.9em;					
 						li {
 							padding: 0 0.4em 0 0.4em;
 						}		
 						input {
-
-							.search-nav {
 								background-color: #000;
-								border: 0;
+								color: #fff;
+								opacity: 0.9;
+								padding: 0.5em 0 0.5em 1em;
+								border: 0;							
+							}	
+						span {
+								padding: 1em 0 0 0;
+								vertical-align: middle;
+							img {
+								width: 22%;
+								height: 17%;
+								margin: 2em 0 0 0;
+								opacity: 0.8;
 							}
-						} 	
+						}							
 					}	
 
 				.header-logo {
@@ -80,24 +92,64 @@ body {
 					li {
 						padding: 0 2em 0 1em;
 					}
-
 				}
 
 			}
-			.carousel-product {
+			
+			
+			section {
+				.carousel-product {
 				width: 88%;
 				min-height: 38em;
 				float: left;
 				margin: 4% 0 0 6%;
 				background-color: #fff;
+					article {
+						width: 22%;
+						float: left;
+						padding-left: 2%;
+						margin-top: 2em;
+						text-align: center;
+						hr {
+							width: 40px;							
+							border-width: 2px;							
+							border-style: solid;
+							color: #A8A8A8;
+						}
+						h4 {
+							margin: 0 0 0 0;
+							font-size: 1.3em;
+							font-weight: 300;
+						}					
+						h5 {
+							margin: 0 0 0 0;
+							font-size: 1.2em;
+							font-weight: 300;
+							color: $yellow;
+							}
+						small {
+							opacity: 0.9;
+						}
+						a {
+							display: block;
+							width: 68%;
+							margin-left: 16%;
+							padding: 0 0 0 0;
+							&:hover {
+								opacity: 0.8;
+							}
+						}
+					}
+				}	
 			}
-			section {
-				article {
-					width: 20%;
+			.banner-header {
+				img {	
+					width: 88%;
 					float: left;
-
-				}
-			}	
+					margin: 3.5% 0 0 6%;
+					}
+			}			
+				
 		}
 
 		.content {
@@ -109,7 +161,7 @@ body {
 				a {
 					color: #000;
 					&:hover {
-						color: #E5E103;
+						color: $yellow;
 					}
 				} 
 				li {
@@ -118,10 +170,41 @@ body {
 			}
 			section {
 				article {
-					width: 20%;
-					float: left;
-
-				}
+						width: 22%;
+						float: left;
+						padding-left: 2%;
+						margin-top: 2em;
+						text-align: center;
+						hr {
+							width: 40px;							
+							border-width: 2px;							
+							border-style: solid;
+							color: #A8A8A8;
+						}
+						h4 {
+							margin: 0 0 0 0;
+							font-size: 1.3em;
+							font-weight: 300;
+						}					
+						h5 {
+							margin: 0 0 0 0;
+							font-size: 1.2em;
+							font-weight: 300;
+							color: $yellow;
+							}
+						small {
+							opacity: 0.9;
+						}
+						a {
+							display: block;
+							width: 68%;
+							margin-left: 16%;
+							padding: 0 0 0 0;
+							&:hover {
+								opacity: 0.8;
+							}
+						}
+					}
 			}
 		}
 
@@ -133,7 +216,7 @@ body {
 			color: #fff;
 			.footer-top-text {
 				height: 50px;
-				background-color: #5A5A5A;
+				background-color: $green;
 				text-align: center;
 				h3 {
 					padding-top: 13px;

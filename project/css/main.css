@@ -37,13 +37,24 @@ body {
         body .wrap header .header-top nav {
           width: 100%;
           height: 60px;
-          padding: 0.7em 0 2em 0;
+          padding: 0 0 2em 0;
           font-size: 0.9em; }
           body .wrap header .header-top nav li {
             padding: 0 0.4em 0 0.4em; }
-          body .wrap header .header-top nav input .search-nav {
+          body .wrap header .header-top nav input {
             background-color: #000;
+            color: #fff;
+            opacity: 0.9;
+            padding: 0.5em 0 0.5em 1em;
             border: 0; }
+          body .wrap header .header-top nav span {
+            padding: 1em 0 0 0;
+            vertical-align: middle; }
+            body .wrap header .header-top nav span img {
+              width: 22%;
+              height: 17%;
+              margin: 2em 0 0 0;
+              opacity: 0.8; }
         body .wrap header .header-top .header-logo {
           text-align: center;
           padding: 3% 0 2% 0; }
@@ -59,15 +70,45 @@ body {
           font-size: 0.9em; }
           body .wrap header .header-top .header-menu li {
             padding: 0 2em 0 1em; }
-      body .wrap header .carousel-product {
+      body .wrap header section .carousel-product {
         width: 88%;
         min-height: 38em;
         float: left;
         margin: 4% 0 0 6%;
         background-color: #fff; }
-      body .wrap header section article {
-        width: 20%;
-        float: left; }
+        body .wrap header section .carousel-product article {
+          width: 22%;
+          float: left;
+          padding-left: 2%;
+          margin-top: 2em;
+          text-align: center; }
+          body .wrap header section .carousel-product article hr {
+            width: 40px;
+            border-width: 2px;
+            border-style: solid;
+            color: #A8A8A8; }
+          body .wrap header section .carousel-product article h4 {
+            margin: 0 0 0 0;
+            font-size: 1.3em;
+            font-weight: 300; }
+          body .wrap header section .carousel-product article h5 {
+            margin: 0 0 0 0;
+            font-size: 1.2em;
+            font-weight: 300;
+            color: #E5E103; }
+          body .wrap header section .carousel-product article small {
+            opacity: 0.9; }
+          body .wrap header section .carousel-product article a {
+            display: block;
+            width: 68%;
+            margin-left: 16%;
+            padding: 0 0 0 0; }
+            body .wrap header section .carousel-product article a:hover {
+              opacity: 0.8; }
+      body .wrap header .banner-header img {
+        width: 88%;
+        float: left;
+        margin: 3.5% 0 0 6%; }
     body .wrap .content {
       width: 100%;
       height: 700px;
@@ -80,8 +121,34 @@ body {
       body .wrap .content nav li {
         padding-right: 1.5em; }
       body .wrap .content section article {
-        width: 20%;
-        float: left; }
+        width: 22%;
+        float: left;
+        padding-left: 2%;
+        margin-top: 2em;
+        text-align: center; }
+        body .wrap .content section article hr {
+          width: 40px;
+          border-width: 2px;
+          border-style: solid;
+          color: #A8A8A8; }
+        body .wrap .content section article h4 {
+          margin: 0 0 0 0;
+          font-size: 1.3em;
+          font-weight: 300; }
+        body .wrap .content section article h5 {
+          margin: 0 0 0 0;
+          font-size: 1.2em;
+          font-weight: 300;
+          color: #E5E103; }
+        body .wrap .content section article small {
+          opacity: 0.9; }
+        body .wrap .content section article a {
+          display: block;
+          width: 68%;
+          margin-left: 16%;
+          padding: 0 0 0 0; }
+          body .wrap .content section article a:hover {
+            opacity: 0.8; }
     body .wrap footer {
       background-color: #191919;
       width: 100%;
