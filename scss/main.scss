@@ -50,7 +50,7 @@ body {
 					 padding: 0 0 2em 0;
 					 font-size: 0.9em;					
 						li {
-							padding: 0 0.4em 0 0.4em;
+							padding: 0 1% 0 0.5%;
 						}		
 						input {
 								background-color: #000;
@@ -84,13 +84,23 @@ body {
 						font-weight: 200;
 						opacity: 0.5;
 					}
+					li {
+						padding-left: 35px;	
+						hr {
+							width: 70px;													
+							border-width: 2px;							
+							border-style: solid;
+							color: #FFFFFF;
+						}
+					}
 				}
 				.header-menu {
 					padding: 3% 0 1% 0;
-					font-size: 0.9em;
+					font-size: 1em;
+					font-weight: 500;
 
 					li {
-						padding: 0 2em 0 1em;
+						padding: 0 2% 0 1%;
 					}
 				}
 
@@ -142,13 +152,15 @@ body {
 					}
 				}	
 			}
-			.banner-header {
-				img {	
-					width: 88%;
-					float: left;
-					margin: 3.5% 0 0 6%;
-					}
-			}			
+			section {
+				.banner-header {
+					img {	
+						width: 88%;
+						float: left;
+						margin: 3.5% 0 0 6%;
+						}
+				}
+			}	
 				
 		}
 
@@ -207,7 +219,90 @@ body {
 					}
 			}
 		}
+//////////////////////////////////////////////////////////////// CATEGORY TEMPLATE
+	.header-category {
+			background-color: #FFFFFF;
+			width: 100%;
+			height: 500px;
+			a {
+				color: #000;
+			}
+			.header-category-left {
+				width: 25%;
+				margin: 3% 2% 2% 4%;
+				float: left;				
+				clear: both;
 
+				.breadcrumb {
+					float: left;
+					li:nth-child(1) {
+						border: 1px solid #000;
+						padding: 0.1em 0 0 0;
+						vertical-align: middle;
+					}
+					li:nth-child(2) {
+						border: 1px solid #000;
+						vertical-align: middle;
+						padding: 0.5em;
+					}
+				}
+				.menu-category {
+					float: left;
+					clear: both;
+					li {
+						display: block;
+						padding: 0.7em 4em 0.7em 0.7em;
+						border: 0.5px solid #fff;
+						background-color: $green;
+						text-align: left;
+						&:hover {
+							background-color: #000;
+						}
+						a {
+							color: #fff;
+						}
+					}
+				}
+			}
+			.header-category-right {
+				width: 60%;
+				float: left;
+				margin: 5% 2% 2% 2%;
+					img {
+						float: left;
+						clear: both;
+					}
+					.header-content {
+						display: block;	
+						padding: 2% 1% 2% 2%;
+						h2 {
+							
+							color: $yellow;
+						}
+						p {
+							
+						}
+					}
+			}	
+		}
+		section {
+			background-color: #fff;
+			height: 1000px;
+			width: 100%;
+			margin-top: 0;
+			h3 {
+				margin-top: 0;
+			}
+			aside {
+				width: 20%;
+				float: left;
+				clear: both;
+				li {
+					display: block;
+				}
+			}
+		}
+//////////////////////////////////////////////////////////////// END CATEGORY TEMPLATE		
 		footer {
 			background-color: #191919;
 			width: 100%;

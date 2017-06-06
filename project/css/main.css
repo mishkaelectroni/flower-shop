@@ -40,7 +40,7 @@ body {
           padding: 0 0 2em 0;
           font-size: 0.9em; }
           body .wrap header .header-top nav li {
-            padding: 0 0.4em 0 0.4em; }
+            padding: 0 1% 0 0.5%; }
           body .wrap header .header-top nav input {
             background-color: #000;
             color: #fff;
@@ -65,11 +65,19 @@ body {
             font-size: 1.1em;
             font-weight: 200;
             opacity: 0.5; }
+          body .wrap header .header-top .header-logo li {
+            padding-left: 35px; }
+            body .wrap header .header-top .header-logo li hr {
+              width: 70px;
+              border-width: 2px;
+              border-style: solid;
+              color: #FFFFFF; }
         body .wrap header .header-top .header-menu {
           padding: 3% 0 1% 0;
-          font-size: 0.9em; }
+          font-size: 1em;
+          font-weight: 500; }
           body .wrap header .header-top .header-menu li {
-            padding: 0 2em 0 1em; }
+            padding: 0 2% 0 1%; }
       body .wrap header section .carousel-product {
         width: 88%;
         min-height: 38em;
@@ -105,7 +113,7 @@ body {
             padding: 0 0 0 0; }
             body .wrap header section .carousel-product article a:hover {
               opacity: 0.8; }
-      body .wrap header .banner-header img {
+      body .wrap header section .banner-header img {
         width: 88%;
         float: left;
         margin: 3.5% 0 0 6%; }
@@ -149,6 +157,65 @@ body {
           padding: 0 0 0 0; }
           body .wrap .content section article a:hover {
             opacity: 0.8; }
+    body .wrap .header-category {
+      background-color: #FFFFFF;
+      width: 100%;
+      height: 500px; }
+      body .wrap .header-category a {
+        color: #000; }
+      body .wrap .header-category .header-category-left {
+        width: 25%;
+        margin: 3% 2% 2% 4%;
+        float: left;
+        clear: both; }
+        body .wrap .header-category .header-category-left .breadcrumb {
+          float: left; }
+          body .wrap .header-category .header-category-left .breadcrumb li:nth-child(1) {
+            border: 1px solid #000;
+            padding: 0.1em 0 0 0;
+            vertical-align: middle; }
+          body .wrap .header-category .header-category-left .breadcrumb li:nth-child(2) {
+            border: 1px solid #000;
+            vertical-align: middle;
+            padding: 0.5em; }
+        body .wrap .header-category .header-category-left .menu-category {
+          float: left;
+          clear: both; }
+          body .wrap .header-category .header-category-left .menu-category li {
+            display: block;
+            padding: 0.7em 4em 0.7em 0.7em;
+            border: 0.5px solid #fff;
+            background-color: #5A5A5A;
+            text-align: left; }
+            body .wrap .header-category .header-category-left .menu-category li:hover {
+              background-color: #000; }
+            body .wrap .header-category .header-category-left .menu-category li a {
+              color: #fff; }
+      body .wrap .header-category .header-category-right {
+        width: 60%;
+        float: left;
+        margin: 5% 2% 2% 2%; }
+        body .wrap .header-category .header-category-right img {
+          float: left;
+          clear: both; }
+        body .wrap .header-category .header-category-right .header-content {
+          display: block;
+          padding: 2% 1% 2% 2%; }
+          body .wrap .header-category .header-category-right .header-content h2 {
+            color: #E5E103; }
+    body .wrap section {
+      background-color: #fff;
+      height: 1000px;
+      width: 100%;
+      margin-top: 0; }
+      body .wrap section h3 {
+        margin-top: 0; }
+      body .wrap section aside {
+        width: 20%;
+        float: left;
+        clear: both; }
+        body .wrap section aside li {
+          display: block; }
     body .wrap footer {
       background-color: #191919;
       width: 100%;
