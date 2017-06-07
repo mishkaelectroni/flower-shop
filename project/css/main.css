@@ -1,10 +1,14 @@
 body {
   max-width: 1600px;
+  height: 100%;
   display: block;
   margin: 0 auto;
   font-family: Helvetica, Arial;
   font-weight: 300; }
   body .wrap {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     margin-left: 0;
     margin-right: 0;
     width: 100%; }
@@ -37,7 +41,7 @@ body {
         body .wrap header .header-top nav {
           width: 100%;
           height: 60px;
-          padding: 0 0 2em 0;
+          padding: 1em 0 2em 0;
           font-size: 0.9em; }
           body .wrap header .header-top nav li {
             padding: 0 1% 0 0.5%; }
@@ -47,14 +51,13 @@ body {
             opacity: 0.9;
             padding: 0.5em 0 0.5em 1em;
             border: 0; }
-          body .wrap header .header-top nav span {
-            padding: 1em 0 0 0;
-            vertical-align: middle; }
-            body .wrap header .header-top nav span img {
-              width: 22%;
-              height: 17%;
-              margin: 2em 0 0 0;
-              opacity: 0.8; }
+          body .wrap header .header-top nav img {
+            width: 92%;
+            height: 87%;
+            padding: 0;
+            vertical-align: middle;
+            margin: 0;
+            opacity: 0.8; }
         body .wrap header .header-top .header-logo {
           text-align: center;
           padding: 3% 0 2% 0; }
@@ -120,6 +123,7 @@ body {
     body .wrap .content {
       width: 100%;
       height: 700px;
+      flex: 1 0 auto;
       margin-top: 40px;
       background-color: #fff; }
       body .wrap .content nav a {
@@ -157,15 +161,70 @@ body {
           padding: 0 0 0 0; }
           body .wrap .content section article a:hover {
             opacity: 0.8; }
+    body .wrap .header-category-main {
+      background-image: url(../img/head.jpg);
+      background-size: cover;
+      width: 100%;
+      margin: 0;
+      padding: 0; }
+      body .wrap .header-category-main .header-top {
+        display: block;
+        width: 100%;
+        min-height: 19em;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: #fff; }
+        body .wrap .header-category-main .header-top nav {
+          width: 100%;
+          height: 60px;
+          padding: 1em 0 2em 0;
+          font-size: 0.9em; }
+          body .wrap .header-category-main .header-top nav li {
+            padding: 0 1% 0 0.5%; }
+          body .wrap .header-category-main .header-top nav input {
+            background-color: #000;
+            color: #fff;
+            opacity: 0.9;
+            padding: 0.5em 0 0.5em 1em;
+            border: 0; }
+          body .wrap .header-category-main .header-top nav img {
+            width: 92%;
+            height: 87%;
+            padding: 0;
+            vertical-align: middle;
+            margin: 0;
+            opacity: 0.8; }
+        body .wrap .header-category-main .header-top .header-logo {
+          text-align: center;
+          padding: 3% 0 2% 0; }
+          body .wrap .header-category-main .header-top .header-logo h1 {
+            font-size: 3em;
+            font-weight: 300; }
+          body .wrap .header-category-main .header-top .header-logo h3 {
+            font-size: 1.1em;
+            font-weight: 200;
+            opacity: 0.5; }
+          body .wrap .header-category-main .header-top .header-logo li {
+            padding-left: 35px; }
+            body .wrap .header-category-main .header-top .header-logo li hr {
+              width: 70px;
+              border-width: 2px;
+              border-style: solid;
+              color: #FFFFFF; }
+        body .wrap .header-category-main .header-top .header-menu {
+          padding: 3% 0 1% 0;
+          font-size: 1em;
+          font-weight: 500; }
+          body .wrap .header-category-main .header-top .header-menu li {
+            padding: 0 2% 0 1%; }
     body .wrap .header-category {
       background-color: #FFFFFF;
       width: 100%;
-      height: 500px; }
+      height: 450px; }
       body .wrap .header-category a {
         color: #000; }
       body .wrap .header-category .header-category-left {
         width: 25%;
-        margin: 3% 2% 2% 4%;
+        margin: 3% 2% 0 4%;
         float: left;
         clear: both; }
         body .wrap .header-category .header-category-left .breadcrumb {
@@ -203,22 +262,40 @@ body {
           padding: 2% 1% 2% 2%; }
           body .wrap .header-category .header-category-right .header-content h2 {
             color: #E5E103; }
-    body .wrap section {
+    body .wrap .category-content {
       background-color: #fff;
-      height: 1000px;
       width: 100%;
       margin-top: 0; }
-      body .wrap section h3 {
-        margin-top: 0; }
-      body .wrap section aside {
-        width: 20%;
+      body .wrap .category-content .category-content-left {
+        width: 17.5%;
         float: left;
-        clear: both; }
-        body .wrap section aside li {
-          display: block; }
+        clear: both;
+        margin-left: 4%; }
+        body .wrap .category-content .category-content-left h4, body .wrap .category-content .category-content-left h3 {
+          margin: 0; }
+        body .wrap .category-content .category-content-left hr {
+          border-width: 2px;
+          border-style: solid;
+          color: #A8A8A8; }
+        body .wrap .category-content .category-content-left li {
+          display: block;
+          border: 1px solid #5A5A5A;
+          margin-bottom: 1.5em; }
+          body .wrap .category-content .category-content-left li img {
+            max-width: 60%; }
+          body .wrap .category-content .category-content-left li ul {
+            color: #E5E103; }
+            body .wrap .category-content .category-content-left li ul del {
+              font-size: 0.9em;
+              color: #000;
+              opacity: 0.8; }
+      body .wrap .category-content .category-content-right {
+        width: 75%;
+        float: right; }
     body .wrap footer {
       background-color: #191919;
       width: 100%;
+      flex: 0 0 auto;
       height: 500px;
       margin-top: 80px;
       color: #fff; }
@@ -227,6 +304,7 @@ body {
         background-color: #5A5A5A;
         text-align: center; }
         body .wrap footer .footer-top-text h3 {
+          margin-top: 0;
           padding-top: 13px; }
       body .wrap footer .footer-menu {
         width: 90%;
