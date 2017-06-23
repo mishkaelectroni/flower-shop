@@ -277,6 +277,11 @@ body {
       background-color: #fff;
       width: 100%;
       margin-top: 0; }
+      body .wrap .category-content a {
+        color: #000; }
+        body .wrap .category-content a:hover {
+          color: #000;
+          opacity: 0.9; }
       body .wrap .category-content .category-content-left {
         width: 20%;
         float: left;
@@ -433,6 +438,55 @@ body {
             body .wrap .category-content .pag-nav ul li:hover {
               background-color: #5A5A5A;
               transition: 0.6s; }
+    body .wrap .product-content {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 70px 1fr 1fr 1.5fr;
+      grid-row-gap: 20px;
+      padding: 0;
+      margin: 2% 4% 2% 4%; }
+      body .wrap .product-content a {
+        color: #000; }
+      body .wrap .product-content .breadcrumb ul {
+        float: left; }
+      body .wrap .product-content .product-des-main {
+        display: grid;
+        grid-template-columns: 1fr 3fr 4fr;
+        grid-gap: 1em; }
+        body .wrap .product-content .product-des-main .product-img-one, body .wrap .product-content .product-des-main .product-img-two {
+          border: 1px solid; }
+        body .wrap .product-content .product-des-main .product-col-one {
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: repeat(3, 1fr);
+          grid-row-gap: 10px; }
+        body .wrap .product-content .product-des-main .product-line-order {
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: 70px 70px;
+          grid-gap: 1em;
+          text-align: left; }
+          body .wrap .product-content .product-des-main .product-line-order .line-order-one {
+            display: inline; }
+          body .wrap .product-content .product-des-main .product-line-order .line-order-two {
+            float: left; }
+      body .wrap .product-content .product-reviews {
+        display: grid;
+        grid-template-columns: 1fr 7fr;
+        border: 1px solid #5A5A5A;
+        box-shadow: 0px 0px 5px 0px #081104; }
+        body .wrap .product-content .product-reviews .product-reviews-name {
+          display: grid;
+          grid-template-rows: 35px 35px;
+          padding: 0.3em 0 0.5em 0.7em; }
+          body .wrap .product-content .product-reviews .product-reviews-name .reviews-row-two a {
+            padding: 0.5em 4em 0.5em 0.5em;
+            background-color: #5A5A5A;
+            color: #fff; }
+        body .wrap .product-content .product-reviews .product-reviews-text {
+          text-align: center;
+          padding: 1em;
+          color: #5A5A5A; }
     body .wrap footer {
       background-color: #191919;
       width: 100%;
