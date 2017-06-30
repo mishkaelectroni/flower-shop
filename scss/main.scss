@@ -489,11 +489,9 @@ body {
 						padding-left: 3%;
 						margin-top: 2em;
 						text-align: center;
-							a {
-								img {
-									max-width: 60%;
-									padding-left: 19%;
-								}
+							img {
+								max-width: 65%;
+    							padding-left: 12%;
 							}
 						}
 						
@@ -541,10 +539,10 @@ body {
 							width: 68%;
 							margin-left: 16%;
 							padding: 0 0 0 0;
-							// img {
-							// 	max-width: 100%;
-							// 	padding-left:0;
-							// }
+							img {
+								max-width: 100%;
+								padding-left:0;
+							}
 							&:hover {
 								opacity: 0.8;
 							}
@@ -599,7 +597,7 @@ body {
 							}
 						}
 				}
-		}
+		// }
 //////////////////////////////////////////////////////////////// END CATEGORY TEMPLATE	
 
 //////////////////////////////////////////////////////////////////////////////////////  PRODUCT TEMPLATE
